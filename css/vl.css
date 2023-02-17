@@ -1,0 +1,209 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css');
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Use Google fonts - Choose a nice color scheme - Use correct images in the appropriate file format
+ */
+
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@300&display=swap');
+/* --- */
+
+html {
+  font-size: 16px;
+  font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+}
+
+body {
+  background-color: #ccf;
+  color: darkblue;
+  font-size: 1rem;
+}
+
+nav ul a,
+nav .brand-logo {
+  color: #D6ACF9;
+  font-weight: bold;
+  display: block;
+}
+
+nav ul li a:hover {
+  font-size: 17px;
+  color: #ccf;
+  font-weight: bold;
+  background-color: white;
+}
+nav > ul > li{
+  position: relative;
+  float: left;
+}
+nav{
+  height: 70px;
+}
+nav::after{
+  content: '';
+  clear: both;
+  display: block;
+}
+nav ul{
+  list-style: none;
+  margin: 0;
+}
+nav ul ul{
+  position: absolute;
+  padding: 0;
+  display: none;
+  top: 100%;
+  left: auto;
+  background-color: #fff;
+}
+nav ul li:hover > ul{
+  display: block;
+}
+.sidenav-trigger {
+  color: #D6ACF9;
+}
+
+.titel_everywere,
+.titel_everywere2 {
+  text-align: center;
+  color: #990953;
+}
+
+.titel_everywere2 {
+  display: none;
+}
+
+#navimg {
+  position: absolute;
+  margin-top: 370px;
+  margin-bottom: 50px;
+  background-color: white;
+}
+
+.locatie,
+.tel {
+  color: #990953;
+  font-weight: bold;
+}
+
+#foto1 {
+  float: left;
+  width: 100%;
+  height: auto;
+}
+
+#foto2 {
+  float: right;
+  width: 100%;
+  height: auto;
+}
+
+#button {
+  float: right;
+  bottom: 10px;
+  right: 10px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #D6ACF9;
+  color: white;
+  padding: 15px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+#button:hover {
+  background-color: #ccf;
+  color: #D6ACF9;
+  cursor: pointer;
+}
+
+#footer_copyright a:hover {
+  text-decoration: underline;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+@media only screen and (max-width : 992px) {
+  #index-banner .section {
+    top: 10%;
+  }
+
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+
+  .titel_everywere {
+    display: none;
+  }
+
+  .titel_everywere2 {
+    display: block;
+  }
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.page-footer {
+  background-color: #ab80cf;
+}
+
+#footer_copyright {
+  background-color: #990953;
+}
+
+#google_maps,
+#tel,
+#google_maps2,
+#google_maps3 {
+  font-weight: bold;
+}
+
+.buttonphone {
+  border-radius: 50%;
+  background-color: white;
+  border: none;
+  color: rgb(74, 74, 194);
+  padding: 20px;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.buttonphone:hover {
+  background-color: rgb(74, 74, 194);
+  color: white;
+}
+
+.links_footer {
+  color: #fff;
+  text-decoration: underline;
+}
+
+.links_footer:hover {
+  font-size: 17px;
+  color: #ccf;
+}
+
+#active {
+  color: white;
+  background-color: #D6ACF9;
+  ;
+}
+.space_waarom{
+  margin-bottom: 10em;
+}

@@ -1,0 +1,15 @@
+/* Opvang Stylesheet */
+
+/* font */
+
+/* --- */
+
+html {
+    font-size: 16px;
+}
+
+body {
+    background-color: #ccf;
+    color: darkblue;
+    font-size: 1rem;
+}

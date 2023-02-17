@@ -1,0 +1,23 @@
+body{
+    background-color: #CCF;
+}
+img1{
+    width: 500px;
+    height:auto;
+}
+.imgklok{
+    width: 300px;
+    height: auto;
+}
+
+
+
+
+@media screen and(max-width: 992px) {
+    
+}
+@media screen and(max-width: 600px) {
+        
+}
+
+
