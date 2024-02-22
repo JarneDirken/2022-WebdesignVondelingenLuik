@@ -71,4 +71,4 @@ To run the project in your local environment, follow these steps:
 
 ## 🍿 Video
 
-https://github.com/JarneDirken/2024-Angular_Project/video/
+https://github.com/JarneDirken/2022-WebdesignVondelingenLuik/assets/90832359/6416c620-e08a-4f38-91ea-f0046fae797d
